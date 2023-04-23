@@ -304,6 +304,7 @@ use_lints! {
     duplicate_keys: lints::duplicate_keys::DuplicateKeysLint,
     empty_if: lints::empty_if::EmptyIfLint,
     empty_loop: lints::empty_loop::EmptyLoopLint,
+    function_name_casing: lints::function_name_casing::FunctionNameCasingLint,
     global_usage: lints::global_usage::GlobalLint,
     high_cyclomatic_complexity: lints::high_cyclomatic_complexity::HighCyclomaticComplexityLint,
     if_same_then_else: lints::if_same_then_else::IfSameThenElseLint,
